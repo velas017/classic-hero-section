@@ -141,3 +141,60 @@ a:hover {
 .hamburger-icon span:first-child {
     transform: none;
 }
+
+.hero-section {
+    padding: 64px 64px 64px 64px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.left-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+.text-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.text-content > h1 {
+    line-height: 1.2;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+}
+
+.text-content > p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.left-content > a {
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: none;
+    vertical-align: middle;
+    border-radius: 60px;
+    border: 2px solid;
+    background-color: darkolivegreen;
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
